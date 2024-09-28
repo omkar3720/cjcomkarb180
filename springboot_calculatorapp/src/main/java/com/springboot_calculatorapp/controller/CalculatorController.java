@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class CalculatorController 
 {
-@RequestMapping("/cal")	
+@RequestMapping("/calcu")	
 public String calculator()
 {
 	return "calculator";
